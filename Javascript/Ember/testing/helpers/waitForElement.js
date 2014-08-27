@@ -28,6 +28,10 @@ Ember.Test.registerAsyncHelper('waitForElement', function(app, element) {
 });
 
 /*
-	usage:
-		pause(100);
+usage:
+	visit('/route');
+	waitForElement(100);
+	andThen(function(){
+		//assertions here...	
+	});
 */
