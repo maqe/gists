@@ -30,6 +30,10 @@ Ember.Test.registerAsyncHelper('pause', function(app, duration) {
 });
 
 /*
-	usage:
-		pause(100);
+usage:
+	visit('/route');
+	pause(100);
+	andThen(function(){
+		//assertions here...	
+	});
 */
