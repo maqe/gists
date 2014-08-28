@@ -1,8 +1,9 @@
 Handlebars.registerHelper('ifEqual', function(a, b, opts) {
-	if(this.get(a) === b)
+	if(this.get(a) === b){
 		return opts.fn(this);
-	else
+	} else {
 		return opts.inverse(this);
+	}
 });
 
 Handlebars.registerHelper('for', function(from, to, block) {
