@@ -24,7 +24,7 @@ Ember.Test.registerAsyncHelper('waitForElement', function(app, element) {
 		testHelpers.waitForElement.element = element;
 		Ember.Test.registerWaiter(testHelpers.waitForElement, testHelpers.waitForElement.ready);
 	});
-	return wait(app);
+	return app.testHelpers.wait();
 });
 
 /*
