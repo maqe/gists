@@ -4,7 +4,7 @@
 
 	requires:
 		imagesLoaded (https://github.com/desandro/imagesloaded)
-		CSS styles
+		CSS styles (https://github.com/maqe/gists/blob/master/LESS/components/image-loader.less)
 	
 	can be used in HBS file like this: {{image-loader src=pictureUrl}}
 	
