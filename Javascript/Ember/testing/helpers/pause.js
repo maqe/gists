@@ -26,7 +26,7 @@ Ember.Test.registerAsyncHelper('pause', function(app, duration) {
 		testHelpers.pause.duration = duration;
 		Ember.Test.registerWaiter(testHelpers.pause, testHelpers.pause.ready);
 	});
-	return wait(app);
+	return app.testHelpers.wait();
 });
 
 /*
