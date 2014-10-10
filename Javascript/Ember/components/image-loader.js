@@ -1,6 +1,6 @@
 /*
 	
-	a image 'loader' component (based on http://ember.zone/a-graceful-image-loading-component/)
+	an image 'loader' component (based on http://ember.zone/a-graceful-image-loading-component/)
 
 	requires:
 		imagesLoaded (https://github.com/desandro/imagesloaded)
